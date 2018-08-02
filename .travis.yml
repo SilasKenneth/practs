@@ -7,3 +7,5 @@ script:
   python -m pytest
 cache:
   pip
+after_success:
+  coveralls
