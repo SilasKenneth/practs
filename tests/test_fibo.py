@@ -30,3 +30,5 @@ class TestFibo(TestCase):
         self.assertEqual(self.correct_fibo(4, table), fibo(4))
     def test_factorial_of_6(self):
         self.assertEqual(720, calc(6))
+    def test_factorial_of_5(self):
+        self.assertEqual(120, calc(5))
