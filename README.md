@@ -1,1 +1,1 @@
-![Travis build](https://travis-ci.org/SilasKenneth/practs.svg?branch=master "Travis CI")
+[![Travis build](https://travis-ci.org/SilasKenneth/practs.svg?branch=master "Travis CI")](https://travis-ci.org/SilasKenneth/practs)
