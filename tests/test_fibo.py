@@ -5,6 +5,7 @@ current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfra
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir) 
 from src.fibo import fibo
+from src.facts import calc
 # global table
 class TestFibo(TestCase):
     def setUp(self):
@@ -27,3 +28,5 @@ class TestFibo(TestCase):
     def test_correct_4(self):
         table = {}
         self.assertEqual(self.correct_fibo(4, table), fibo(4))
+    def test_factorial_of_6(self):
+        self.assertEqual(720, calc(6))
